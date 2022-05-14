@@ -1,0 +1,1 @@
+Props are pass down from the parent component to its children, whereas the state is produce and maintained inside the component. As a result, props are immutable and should only be pass down, not modified. State, on the other hand, is dynamic and internal to the component, thus it isn’t pass on to children.

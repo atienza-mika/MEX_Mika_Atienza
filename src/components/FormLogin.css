@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap");
+
+* {
+  font-size: 16px;
+}
+.form-inner {
+  margin-top: 150px;
+}
+h2 {
+  color: #ff5c8d;
+  font-size: 6rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.form-group label {
+  width: 100px;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.form-group {
+  font-family: "Ubuntu", sans-serif;
+  padding: 10px;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border: 1px solid #ffc2dc;
+  outline: none;
+  color: #f072a9;
+  padding: 5px 8px 5px 8px;
+  margin-top: 5px;
+  box-shadow: inset 1px 1px 4px #ffd5e7;
+  -moz-box-shadow: inset 1px 1px 4px #ffd5e7;
+  -webkit-box-shadow: inset 1px 1px 4px #ffd5e7;
+  background: #ffeff6;
+  width: 100%;
+}
+.form-group input[type="submit"] {
+  background: #eb3b88;
+  border: 1px solid #c94a81;
+  padding: 5px 15px 5px 15px;
+  color: #ffcbe2;
+  font-size: large;
+  box-shadow: inset -1px -1px 3px #ff62a7;
+  -moz-box-shadow: inset -1px -1px 3px #ff62a7;
+  -webkit-box-shadow: inset -1px -1px 3px #ff62a7;
+  border-radius: 3px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.form-group input[type="submit"]:hover {
+  color: #f382b3;
+}

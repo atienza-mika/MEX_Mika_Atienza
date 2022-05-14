@@ -31,9 +31,9 @@ function App() {
     <div className='App'>
       {(user.email !== "") ? (
         <div className="welcome">
-          <TodoList />
           <h2>Welcome, <span>{user.name}</span></h2>
-          <button onClick={Logout}>Logout</button>
+          <TodoList />
+          <button className="logout" onClick={Logout}>Logout</button>
         </div>
       ) : (
         <FormLogin Login={Login} error={error} />

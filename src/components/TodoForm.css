@@ -1,3 +1,57 @@
-h1{
-    color: aliceblue;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+.todo-input {
+  font-family: "Ubuntu", sans-serif;
+  padding: 10px;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #d84d8c;
+  border-radius: 15px;
+}
+.todo-input:focus {
+  border: #161305;
+  border-style: dashed;
+}
+.form-add {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.todo-button {
+  margin-left: 10px;
+  padding: 15px 1.5rem;
+  align-self: center;
+  background-color: #f4bbbb;
+  outline: none;
+  border: none;
+  color: #1a132f;
+  font-weight: 800;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.todo-button:hover {
+  color: #f382b3;
+}
+.form-update {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.todo-button.edit {
+  margin-left: 10px;
+  padding: 15px 1.9rem;
+  align-self: center;
+  background-color: #f4bbbb;
+  outline: none;
+  border: none;
+  color: #1a132f;
+  font-weight: 800;
+}
+.todo-button.edit:hover {
+  color: #f382b3;
 }
